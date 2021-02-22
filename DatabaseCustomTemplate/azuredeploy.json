@@ -8,14 +8,14 @@
                 "description": "Enter your SQL server Name"
            }
          },
-         "SQLUser": {
+        "SQLUser": {
             "type": "string",
             "metadata": {
                  "description": "Enter password"
              }
          },
 
-         "SQLPassword": {
+        "SQLPassword": {
              "type": "securestring",
              "metadata": {
                  "description": "Enter the secure Password"
@@ -36,7 +36,7 @@
             },
             "properties": {
                 "administratorLogin": "[parameters('SQL Server Name')]",
-                "administratorLoginPassword": "[parameters('SQLPassword')]]"
+                "administratorLoginPassword": "[parameters('SQLPassword')]"
             },
             "resources": [
                 {
