@@ -27,7 +27,7 @@
     "variables": {},
     "resources": [
         {
-            "name": "[parameters('SQL Server Name')]]",
+            "name": "[parameters('SQL Server Name')]",
             "type": "Microsoft.Sql/servers",
             "apiVersion": "2014-04-01",
             "location": "[resourceGroup().location]",
