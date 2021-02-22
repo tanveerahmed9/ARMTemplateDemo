@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "SQL Server Name": {
+            "value": "## TO BE DEFINED ##"
+        },
+        "SQLUser": {
+            "value": "## TO BE DEFINED ##"
+        },
+        "SQLPassword": {
+            "reference": {
+                "keyVault": {
+                   "id": "/subscriptions/90e089db-85d9-409d-9b6f-1d5afe41782f/resourceGroups/WApp/providers/Microsoft.KeyVault/vaults/DB1092UC"
+                },
+                "secretName": "MyPassword"
+            }
+        }
+    }
+}

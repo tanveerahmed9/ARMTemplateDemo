@@ -15,7 +15,7 @@
              }
          },
 
-         "SQLPassword": {
+        "SQLPassword": {
              "type": "securestring",
              "metadata": {
                  "description": "Enter the secure Password"
