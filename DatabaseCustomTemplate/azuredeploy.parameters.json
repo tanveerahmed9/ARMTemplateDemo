@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "SQL Server Name": {
-            "value": "## TO BE DEFINED ##"
+            "value": "sqlus001"
         },
         "SQLUser": {
-            "value": "## TO BE DEFINED ##"
+            "value": "adminuser1"
         },
         "SQLPassword": {
             "reference": {
