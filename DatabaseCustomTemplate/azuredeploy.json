@@ -15,7 +15,7 @@
              }
          },
 
-        "SQLPassword": {
+         "SQLPassword": {
              "type": "securestring",
              "metadata": {
                  "description": "Enter the secure Password"
@@ -43,7 +43,7 @@
                     "type": "firewallRules",
                     "apiVersion": "2014-04-01",
                     "dependsOn": [
-                        "[resourceId('Microsoft.Sql/servers', 'sqlServer1')]"
+                        "[resourceId('Microsoft.Sql/servers', parameters('SQL Server Name'))]"
                     ],
                     "location": "[resourceGroup().location]",
                     "name": "AllowAllWindowsAzureIps",
